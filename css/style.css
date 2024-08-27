@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  background: #e5e5e5;
+  background: linear-gradient(90deg, #e5e5e5 50%, #d9e3ef 0%);
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+}
+.nav {
+  display: flex;
+}
+.dolly {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 10%;
+  text-align: left;
+  border: 2px solid rgb(0, 0, 0);
+  width: 106px;
+  height: 41px;
+  text-align: center;
+}
+.ul {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 7%;
+  text-align: left;
+  display: flex;
+  gap: 67px;
+}
+li,
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  list-style: none;
+}
+.ico {
+  display: flex;
+  gap: 19px;
+}
+.ico1 {
+  width: 22px;
+  height: 19px;
+}
+.ico2 {
+  width: 22px;
+  height: 19px;
+}
+.ico3 {
+  width: 22px;
+  height: 19px;
+}
+.h1 {
+  color: rgb(55, 55, 55);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+}
+.button {
+  width: 212px;
+  height: 66px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 12%;
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
+}
